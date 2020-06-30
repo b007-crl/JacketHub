@@ -1,0 +1,34 @@
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\bin\Debug\jacketHub.Services.dll.config
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\bin\Debug\jacketHub.Services.dll
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\bin\Debug\jacketHub.Services.pdb
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\bin\Debug\EntityFramework.dll
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\bin\Debug\JacketHub.DataBase.dll
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\bin\Debug\JacketHub.Entitties.dll
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\bin\Debug\JacketHub.Entitties.pdb
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\bin\Debug\JacketHub.DataBase.pdb
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\bin\Debug\JacketHub.DataBase.dll.config
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\bin\Debug\EntityFramework.xml
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\obj\Debug\jacketHub.Services.csprojAssemblyReference.cache
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\obj\Debug\jacketHub.Services.csproj.CoreCompileInputs.cache
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\obj\Debug\jacketHub.Services.csproj.CopyComplete
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\obj\Debug\jacketHub.Services.dll
+C:\Users\umair khan\source\repos\JacketHub\jacketHub.Services\obj\Debug\jacketHub.Services.pdb
+C:\MVC 5 practice\JacketHub\jacketHub.Services\bin\Debug\jacketHub.Services.dll.config
+C:\MVC 5 practice\JacketHub\jacketHub.Services\bin\Debug\jacketHub.Services.dll
+C:\MVC 5 practice\JacketHub\jacketHub.Services\bin\Debug\jacketHub.Services.pdb
+C:\MVC 5 practice\JacketHub\jacketHub.Services\bin\Debug\EntityFramework.dll
+C:\MVC 5 practice\JacketHub\jacketHub.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\MVC 5 practice\JacketHub\jacketHub.Services\bin\Debug\JacketHub.DataBase.dll
+C:\MVC 5 practice\JacketHub\jacketHub.Services\bin\Debug\JacketHub.Entitties.dll
+C:\MVC 5 practice\JacketHub\jacketHub.Services\bin\Debug\JacketHub.Entitties.pdb
+C:\MVC 5 practice\JacketHub\jacketHub.Services\bin\Debug\JacketHub.DataBase.pdb
+C:\MVC 5 practice\JacketHub\jacketHub.Services\bin\Debug\JacketHub.DataBase.dll.config
+C:\MVC 5 practice\JacketHub\jacketHub.Services\bin\Debug\EntityFramework.xml
+C:\MVC 5 practice\JacketHub\jacketHub.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\MVC 5 practice\JacketHub\jacketHub.Services\obj\Debug\jacketHub.Services.csprojAssemblyReference.cache
+C:\MVC 5 practice\JacketHub\jacketHub.Services\obj\Debug\jacketHub.Services.csproj.CoreCompileInputs.cache
+C:\MVC 5 practice\JacketHub\jacketHub.Services\obj\Debug\jacketHub.Services.csproj.CopyComplete
+C:\MVC 5 practice\JacketHub\jacketHub.Services\obj\Debug\jacketHub.Services.dll
+C:\MVC 5 practice\JacketHub\jacketHub.Services\obj\Debug\jacketHub.Services.pdb

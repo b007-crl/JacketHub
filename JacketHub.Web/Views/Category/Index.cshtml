@@ -1,0 +1,11 @@
+﻿@model List<JacketHub.Entitties.Category>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>List of Categoies</h2>
+@foreach (var item in Model)
+{ 
+    <h1>@item.Id : <span>@item.Name</span></h1>
+}
+

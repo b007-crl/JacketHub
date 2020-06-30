@@ -1,0 +1,12 @@
+C:\Users\umair khan\source\repos\JacketHub.Entitties\bin\Debug\JacketHub.Entitties.dll
+C:\Users\umair khan\source\repos\JacketHub.Entitties\bin\Debug\JacketHub.Entitties.pdb
+C:\Users\umair khan\source\repos\JacketHub.Entitties\obj\Debug\JacketHub.Entitties.csprojAssemblyReference.cache
+C:\Users\umair khan\source\repos\JacketHub.Entitties\obj\Debug\JacketHub.Entitties.csproj.CoreCompileInputs.cache
+C:\Users\umair khan\source\repos\JacketHub.Entitties\obj\Debug\JacketHub.Entitties.dll
+C:\Users\umair khan\source\repos\JacketHub.Entitties\obj\Debug\JacketHub.Entitties.pdb
+C:\MVC 5 practice\JacketHub\JacketHub.Entitties\bin\Debug\JacketHub.Entitties.dll
+C:\MVC 5 practice\JacketHub\JacketHub.Entitties\bin\Debug\JacketHub.Entitties.pdb
+C:\MVC 5 practice\JacketHub\JacketHub.Entitties\obj\Debug\JacketHub.Entitties.csprojAssemblyReference.cache
+C:\MVC 5 practice\JacketHub\JacketHub.Entitties\obj\Debug\JacketHub.Entitties.csproj.CoreCompileInputs.cache
+C:\MVC 5 practice\JacketHub\JacketHub.Entitties\obj\Debug\JacketHub.Entitties.dll
+C:\MVC 5 practice\JacketHub\JacketHub.Entitties\obj\Debug\JacketHub.Entitties.pdb
