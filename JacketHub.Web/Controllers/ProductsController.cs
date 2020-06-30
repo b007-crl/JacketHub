@@ -1,4 +1,5 @@
 ﻿using jacketHub.Services;
+using JacketHub.Entitties;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,17 @@ namespace JacketHub.Web.Controllers
         {
            var products =  services.GetProducts();
             return View(products);
+        }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Create(Product product)
+        {
+            services.SaveProduct(product);
+            return RedirectToAction("Index");
         }
     }
 }

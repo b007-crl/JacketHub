@@ -1,9 +1,30 @@
-﻿
+﻿@model List<JacketHub.Entitties.Product>
 @{
     ViewBag.Title = "ProductTable";
 }
 
 <h2>ProductTable</h2>
 <table>
+    <thead>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
 
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>

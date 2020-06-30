@@ -29,7 +29,7 @@ namespace jacketHub.Services
 
         }
 
-        public void SaveCategory(Product product)
+        public void SaveProduct(Product product)
         {
             using (var context = new JHContext())
             {
