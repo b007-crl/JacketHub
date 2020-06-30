@@ -20,7 +20,7 @@ namespace JacketHub.Web.Controllers
         public ActionResult ProductTable()
         {
            var products =  services.GetProducts();
-            return View(products);
+            return PartialView(products);
         }
 
         public ActionResult Create()
