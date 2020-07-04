@@ -1,6 +1,6 @@
 ﻿@model List<JacketHub.Entitties.Product>
 
-   
+
 <h2>ProductTable</h2>
 
 <div>
@@ -8,6 +8,7 @@
         <input type="text" name="search" id="searchtxt" />
         <button type="button" id="searchbtn">Search</button>
     </form>
+    <button type="button" id="newbtn">New</button>
 </div>
 
 <div>
@@ -58,6 +59,19 @@
 
 
 
+    });
+
+    $("#newbtn").click(function () {
+        $.ajax({
+
+            url: '/Products/Create',
+        })
+            .done(function (responce) {
+                $("#FormContainer").html(responce);
+            })
+            .fail(function (xhr) {
+                alert(xhr.statusText);
+            });
 
     });
 </script>

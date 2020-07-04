@@ -30,13 +30,13 @@ namespace JacketHub.Web.Controllers
 
         public ActionResult Create()
         {
-            return View();
+            return PartialView();
         }
         [HttpPost]
         public ActionResult Create(Product product)
         {
             services.SaveProduct(product);
-            return RedirectToAction("Index");
+            return RedirectToAction("ProductTable");
         }
     }
 }
