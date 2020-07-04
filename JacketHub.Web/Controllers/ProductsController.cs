@@ -17,9 +17,14 @@ namespace JacketHub.Web.Controllers
             return View();
         }
 
-        public ActionResult ProductTable()
+        public ActionResult ProductTable(string search)
         {
            var products =  services.GetProducts();
+            if (!string.IsNullOrEmpty(search))
+            {
+                products = products.Where(p => p.Name != null && p.Name.ToLower().Contains(search.ToLower())).ToList();
+            }
+            
             return PartialView(products);
         }
 

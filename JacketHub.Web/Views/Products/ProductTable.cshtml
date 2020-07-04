@@ -1,30 +1,63 @@
 ﻿@model List<JacketHub.Entitties.Product>
 
-
+   
 <h2>ProductTable</h2>
-<table>
-    <thead>
-        <tr>
-            <td>Name</td>
-            <td>Price</td>
-            <td>Discription</td>
-            <td>Category</td>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var product in Model)
-        {
-        <tr>
-            <td>@product.Name</td>
-            <td>@product.Price</td>
-            <td>@product.Discription</td>
-            <td>-</td>
-            <td>
-                <button>Edit</button>
-                <button>Delete</button>
 
-            </td>
-        </tr>
-        }
-    </tbody>
-</table>
+<div>
+    <form method="post">
+        <input type="text" name="search" id="searchtxt" />
+        <button type="button" id="searchbtn">Search</button>
+    </form>
+</div>
+
+<div>
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Discription</td>
+                <td>Category</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@product.Price</td>
+                    <td>@product.Discription</td>
+                    <td>-</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<script>
+    $("#searchbtn").click(function () {
+        var searchValue = $("#searchtxt").val();
+        debugger
+        $.ajax({
+
+            url: '/Products/ProductTable',
+            data: {
+                search: searchValue
+            }
+        })
+            .done(function (responce) {
+                $("#tableContainer").html(responce);
+            })
+            .fail(function (xhr) {
+                alert(xhr.statusText);
+            });
+
+
+
+
+    });
+</script>
