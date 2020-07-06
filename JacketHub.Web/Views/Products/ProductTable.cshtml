@@ -11,7 +11,7 @@
     <button type="button" id="newbtn">New</button>
 </div>
 
-<div>
+<div id="tableContainer">
     <table>
         <thead>
             <tr>
@@ -30,8 +30,8 @@
                     <td>@product.Discription</td>
                     <td>-</td>
                     <td>
-                        <button>Edit</button>
-                        <button>Delete</button>
+                        <button type="button" class="btnedit" data-id="@product.Id">Edit</button>
+                        <button tpye="button" class="btnDelete" data-id="@product.Id">Delete</button>
 
                     </td>
                 </tr>
@@ -72,6 +72,46 @@
             .fail(function (xhr) {
                 alert(xhr.statusText);
             });
+
+    });
+
+    $(".btnedit").click(function () {
+        
+        $.ajax({
+
+            url: '/Products/Edit',
+            data:{
+                ID: $(this).attr('data-id')
+            }
+        })
+            .done(function (responce) {
+                $("#FormContainer").html(responce);
+                
+            })
+            .fail(function (xhr) {
+                alert(xhr.statusText);
+            });
+
+    });
+
+    $('.btnDelete').click(function () {
+        var confirmDelete = confirm("Are you sure you want to delete this record")
+        if (confirmDelete) {
+            $.ajax({
+                type: 'POST',
+                url: '/Products/Delete',
+                data: {
+                    ID: $(this).attr('data-id')
+                }
+            })
+                .done(function (responce) {
+                    $("#tableContainer").html(responce);
+
+                })
+                .fail(function (xhr) {
+                    alert(xhr.statusText);
+                });
+        }
 
     });
 </script>

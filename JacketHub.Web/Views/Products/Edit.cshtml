@@ -1,0 +1,38 @@
+﻿@model JacketHub.Entitties.Product
+@{
+    ViewBag.Title = "EDIT";
+}
+
+
+<form id="EditProduct">
+    <h2>Product</h2>
+    <input type="hidden" name ="ID" value="@Model.Id"/>
+    <label>Name</label>
+    <input name="Name" value="@Model.Name"/><br />
+    <label>Price</label>
+    <input name="Price" value="@Model.Price" />
+    <br />
+    <label>Discription</label>
+    <input name="Discription" value="@Model.Discription" />
+    <hr />
+    <button type="button" id="btnUpdate">Update</button>
+</form>
+
+<script>
+    $("#btnUpdate").click(function () {
+        $.ajax({
+            type: 'POST',
+            url: '/Products/Edit',
+            data: $('#EditProduct').serialize()
+
+        })
+            .done(function (responce) {
+              
+                $("#tableContainer").html(responce);
+                $("#FormContainer").html('');
+            })
+            .fail(function (xhr) {
+                alert(xhr.statusText);
+            });
+    });
+</script>

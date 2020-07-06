@@ -38,5 +38,25 @@ namespace JacketHub.Web.Controllers
             services.SaveProduct(product);
             return RedirectToAction("ProductTable");
         }
+
+        public ActionResult Edit(int ID)
+        {
+            var product = services.GetProduct(ID);
+            return PartialView(product);
+        }
+        [HttpPost]
+        public ActionResult Edit(Product product)
+        {
+            services.UpdateProduct(product);
+            return RedirectToAction("ProductTable");
+        }
+
+      
+        [HttpPost]
+        public ActionResult Delete(int ID)
+        {
+            services.DeleteProduct(ID);
+            return RedirectToAction("ProductTable");
+        }
     }
 }
